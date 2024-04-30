@@ -45,7 +45,7 @@ Here are some key characteristics and benefits of hardware firewalls:
     including devices that may not have their own firewall capabilities, such as IoT devices or networked appliances.
 
 
-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
 dIFFERENCE BETWEEN OLD FIREWALL AND NEW UPDATED FIREWALL
 -----------------------------------------------------------------------------------------------------------------------------------
 REDHAT ENTERPRISE LINUX 6(RHEL6)            | REDHAT ENTERPRISE LINUX 7(RHEL 7)         | REDHAT ENTERPRISE LINUX 8 (RHEL 8)      |
@@ -83,7 +83,14 @@ FIREWALL STATUS                             |USED TO CHECK THE STATUS           
 
 --> FOR UBUNTU(LINUX) IS THE MUCH SIMILAR TO REDHAT ENTERPRISE LINUX (RHEL 8) , FOR UBUNUTU LINUX WE FOLLOW (RHEL8)
 
-
+FIREWALL INSTALLATION IN LINUX
+--------------------------------
+.--> DEFALUT FIREWALL IS INSTALLED IN EVERY LINUX SYSTEM AND WINDOWS ( IN WINDOWS WE GET SOFTWARE ANTIVIRUS,TOTAL SECURITY ETC...)
+DEFAULT FIREWALL PATH
+----------------------
+PATH:/usr/lib/firewalld/
+--> IF /USR/LIB DOES NOT CONTAINS FIREWALLD DIRECTORY THEN RUN THE COMMAND 
+CMD: yum install firewalld ( it installed firewall ) 
 
 
 
