@@ -45,4 +45,55 @@ Here are some key characteristics and benefits of hardware firewalls:
     including devices that may not have their own firewall capabilities, such as IoT devices or networked appliances.
 
 
+----------------------------------------------------------------------------------------------------------------------------------
+dIFFERENCE BETWEEN OLD FIREWALL AND NEW UPDATED FIREWALL
+-----------------------------------------------------------------------------------------------------------------------------------
+REDHAT ENTERPRISE LINUX 6(RHEL6)            | REDHAT ENTERPRISE LINUX 7(RHEL 7)         | REDHAT ENTERPRISE LINUX 8 (RHEL 8)      |
+--------------------------------------------|-------------------------------------------|-----------------------------------------| 
+ --> IP TABLES IS THE DEFAULT UTILITY TO    | --> FIREWALLD IS THE DEFAULT SERVICE USED |-->ONLY FIREWALLD IS THE DEFAULT SERVICE |
+MANAGE AND MONITO FIRE WALL CONFIGURATION AS| TO MANAGE AND MONITOR THE FIREWALLAS WELL |USED TO MANAGE AND MONITOR THE FIRE WALL |
+WELL AS ITS COMPONETS                       |AS IT COMPONETS & ALOS IP TABLES CAN ALSO  |AS WELL AS IT COMPONETS                  |
+                                            |BE USED                                    |                                         |
+-->ONLY TABLE COMMAND IS USED TO MANAGE THE'|-->FIREWALL-CMD COMMAND IS USED TO MANAGE  |-->ONLY FIREWALL-CMD IS USED TO MANAGE   |
+  FIREWALL                                  |FIREWALL BUT IPTABLES CAN ALSO BE USED     |TO MANAGE FIREWALL                       |
+                                            |                                           |                                         |
+--> PACKET FILITERING IS POSSIABLE ONLY     |-->TO USE IPTABLES FIRST REMOVE THE FIRE   |--> ONLY FIREWALLD CAN BE USED NO,SUPPORT|
+  THROUGH THE IP TABLES ONLY                |WALLD PACKAGE THEN INSTALL & ENABLE THE    |FOR IPTABLES COMMANDS                    |   
+                                            |IP TABLES                                  |                                         |
+--> NETFILTER IS KERNAL MODULE USED FOR     |-->NETFLITER IS KERNAL MODULE USED FOR     |-->NETFILTER IS KERNAL MODULE USED FOR   |
+    PACKET FILTERING                        |PACKET FILTERING                           |PACKET FILTERING                         |
+                                            |                                           |                                         |
+-->GUI PACKAGE IS USED TO MANAGE THE FIRE   |-->GUI PACKAGE IS USED TO MANAGE THE       |--> GUI PACKAGE IS USED TO MANAGE THE    |
+WALL IS SYSTEM-CONFIG-FIREWALL              |FIREWALL FIREWALL-CONFIG                   |FIREWALL FIREWALL-CONFIG                 |
+                                            |                                           |                                         |
+-->/ETC/SYSCONFIG/IPTABLES IS THE DEFAULT   |-->/USR/LIB/FIREWALLD/SERVICE ISTHE DEFALUT|-->/USR/LIB/FIREWALLD/SERVICE ISTHE      |                              |                                           |
+CONFIGURATION FILE IS USED TO MANAGE RULES  |  XML FILE /ETC/FIREWALLD /SERVICE IS THE  |DEFAULT XML FILE /ETC/FIREWALLD /SERVICE |                                      |
+AND SETTING IN FIREWALL                     | CONFIGURATION FILES ARE USED              |CONFIGURATION FILES ARE USED             |
+                                            |                                           |                                         |
+-->IPTABLE IS RESPONSABLE FOR BACKEND FOR   |-->IPTABLE IS RESPONSABLE FOR BACKEND FOR  |-->NTTABLES IS RESPONSABLE FOR BACKEND FO|                               |
+MANAGEING THE IPTABLE SERVICE TO FILTER THE | FIREWALL DEAMON AND SERVICES TO FILTER    |R FIREWALL DEAMON AND SERVICES TO FILTER |                                |
+DATA                                        |THE PACKETS                                |THE PACKETS                              |
+                                            |                                           |                                         |
+-->SERVICE IPTABLE COMMAND IS USED TO CHECK |-->SYSTEMCRL STATUS FIREWALLD COMMAND IS   |-->SYSTEMCRL STATUS FIREWALLD COMMAND IS |
+FIREWALL STATUS                             |USED TO CHECK THE STATUS                   |USED TO CHECK THE STATUS                 |
+                                            |                                           |                                         |
+                                            |                                           |                                         |
+                                            |                                           |                                         |
+------------------------------------------------------------------------------------------------------------------------------------
+
+--> FOR UBUNTU(LINUX) IS THE MUCH SIMILAR TO REDHAT ENTERPRISE LINUX (RHEL 8) , FOR UBUNUTU LINUX WE FOLLOW (RHEL8)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
