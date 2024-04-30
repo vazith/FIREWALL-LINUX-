@@ -1,0 +1,48 @@
+WHAT IS A FIREWALL ...?
+--> FIREWALL IS A NETWORK SECURITY SYSTEM THAT MONITOR AND CONTROL INCOMMING AND OUTGOING NETWORK TRAFFICE BASED ON THE RULE WE DEFINED
+--> BASICALLY USED TO DETERMINE AND BLOCK UNTRUST NETWORK DEVICES 
+--> FIREWALL TYPICALLY ESTABLISH A BARRIER BETWEEN A TRUSTED NETWORK AND AN UNTRUSTED NETWORK THROUGH AN INTERNET
+
+TYPES OF FIREWALLS
+-------------------
+1. SOFTWARE FIREWALL    2.  HARDWARE FIREWALL
+
+1. SOFTWARE FIREWALL
+---------------------
+--> SOFTWARE FIREWALL SUCH TYPE OF FIREWALL IS A EITHER A OPERATION SYSTEM BULLD-IN (OR) CAN BE ENABLED BY INSTALLATING A SOFTWARE IN THE
+COMPUTER SUCH AS EXAMPLE:( ANTIVIRUS SOFTWARE, TOTAL PROTECTION SOFTWARE, TOTAL 360 SOFTWARE ETC...) LOT OF SOFTWARE AVAILABLE SOFTWARE 
+
+2.  HARDWARE SOFTWARE
+----------------------
+
+
+A hardware firewall is a physical device designed to protect a network by controlling incoming and outgoing traffic based on a set of predetermined security rules.
+It operates at the network level, filtering packets of data as they pass through it. Unlike software firewalls that run on individual computers or servers, 
+hardware firewalls are standalone devices that sit between a local network (such as a LAN) and the broader Internet.
+
+Here are some key characteristics and benefits of hardware firewalls:
+--------------------------------------------------------------------
+
+    Dedicated Security Appliance: Hardware firewalls are purpose-built devices dedicated solely to the task of network security. They typically come with specialized
+    hardware components and software optimized for handling firewall functions.
+
+    Packet Filtering: Hardware firewalls inspect packets of data passing through them and make decisions about whether to allow or block the traffic based on predefined rules.
+    These rules can be configured by network administrators to enforce security policies tailored to the organization's needs.
+
+    Stateful Inspection: Many hardware firewalls employ stateful packet inspection (SPI), which keeps track of the state of active connections and makes decisions based on t
+    he context of the traffic flow. This helps prevent certain types of attacks, such as those exploiting vulnerabilities in network protocols.
+
+    Network Segmentation: Hardware firewalls can be used to segment a network into multiple zones or subnets, each with its own security policies. This helps contain security 
+    breaches and limit the spread of malware or unauthorized access within the network.
+
+    Performance: Hardware firewalls are designed to handle high volumes of network traffic efficiently, making them suitable for use in enterprise environments and networks 
+    with demanding performance requirements.
+
+    Ease of Management: Hardware firewalls often come with web-based or command-line interfaces that allow administrators to configure and manage firewall rules, 
+    monitor network activity, and generate reports on security events.
+
+    Protection for All Devices: Unlike software firewalls that need to be installed and maintained on individual devices, a hardware firewall protects the entire network,
+    including devices that may not have their own firewall capabilities, such as IoT devices or networked appliances.
+
+
+
